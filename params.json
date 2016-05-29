@@ -1,6 +1,0 @@
-{
-  "name": "Pop-pyramid",
-  "tagline": "Population pyramid represented by lines",
-  "body": "### Population pyramid represented by lines.\r\nThis is a project to visualize a population pyramid with lines, using D3.js \r\n",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}

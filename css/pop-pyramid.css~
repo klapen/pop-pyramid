@@ -1,0 +1,40 @@
+/* Grid styles */
+.axis .tick line {
+  stroke: #777;
+}
+
+.male .tick line{
+    stroke: green;
+    z-index: 100;
+}
+
+.axis path{
+    display: none;
+}
+
+/* Graph styles */
+.central-line{
+    stroke-width: 2;
+    stroke: blue;
+}
+
+.male.axis{
+    
+}
+
+.female.axis{
+    fill:red;
+}
+
+.line-current-yr{
+    fill: green;
+    stroke:green;
+    stroke-width:1.5px;
+    
+}
+
+.line-selected-yr{
+    fill:orange;
+    stroke:orange;
+    stroke-width:1.5px
+}

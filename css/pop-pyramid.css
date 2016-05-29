@@ -1,0 +1,58 @@
+/* Grid styles */
+.axis .tick line {
+    stroke: #777;
+    opacity: 0.3;
+}
+
+.male .tick line{
+    stroke: #152B3C;
+    opacitiy: 0.3;
+    z-index: 100;
+    display: none;
+}
+
+
+.female .tick line{
+    stroke: #E47C5D;
+    opacitiy: 0.3;
+    z-index: 100;
+    display: none;
+}
+
+.axis .domain{
+    display: none;
+}
+
+/* Graph styles */
+.central-line{
+    stroke-width: 2;
+    stroke: blue;
+}
+
+.male.axis{
+    fill: #152B3C;
+}
+
+.female.axis{
+    fill: #E47C5D;
+}
+
+.line-male{
+    fill: #152B3C;
+    stroke: #152B3C;
+    stroke-width:1.5px;
+}
+
+.line-female{
+    fill: #E47C5D;
+    stroke: #E47C5D;
+    stroke-width:1.5px;
+}
+
+.line-current-yr{
+    opacity: 0.5;
+}
+
+.line-selected-yr{
+    opacity: 1;
+}
