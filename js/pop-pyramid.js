@@ -207,7 +207,6 @@ var line_pyramid = {
 	var graph = this.initialize(id,dataUrl);
 	// Load data
 	d3.json(dataUrl,function(error,data){
-	    oas = JSON.parse(JSON.stringify(data));
 	    // Initialize data
 	    graph.data = graph.initData(data);
 	    // Create axis
@@ -222,7 +221,7 @@ var line_pyramid = {
 	return graph;
     }
 };
-var oas,aux,blah;
+
 $(document).ready(function(){
     var chart = line_pyramid.generate('#pop-pyramid','json/poblacion_1985-2020.min.json');
     aux = chart;
